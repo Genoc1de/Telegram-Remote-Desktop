@@ -15,7 +15,7 @@ import keyboard
 import pyautogui
 class TelegramBot:
     def __init__(self):
-        f = open('aauth-test.json')
+        f = open('auth-test.json')
         auth = json.load(f)
         self.TOKEN = auth["TOKEN"]
         self.CHAT_ID = auth["CHAT_ID"]
